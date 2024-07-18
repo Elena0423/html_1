@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 14px;
+}
+
+.heading {
+    font-style: italic;
+    color: gold;
+    font-size: 1.5em;
+
+    border: 1xp dashed red;
+}
+
+.text {
+    color:black;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+.marked {
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    letter-spacing: 0.5em;
+}
+
+.text2 .marked {
+    background-color: pink;
+}
+
+ul {
+    list-style-type: none;
+    list-style-type: inside;
+}
+
+ol li::before {
+    content: "counter(number)') '";
+    counter-increment:number;
+    border: 1px solid red;
+    padding: 1em 5em 2em 10em;
+    margin: 2em;
+}
+
+#red {
+color: red;
+}
+
+#orange {
+color: orange;
+}
+
+#coral {
+color: coral;
+}
+
+#yellow {
+color: yellow;
+}
